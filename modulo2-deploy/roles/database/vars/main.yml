@@ -1,0 +1,12 @@
+postgresql_databases:
+  - name: modulo2
+    owner: sensor2
+    hstore: yes
+postgresql_users:
+  - name: sensor2
+    pass: 123456
+    encrypted: no
+postgresql_user_privileges:
+  - name: sensor2
+    db: modulo2
+    priv: "ALL"

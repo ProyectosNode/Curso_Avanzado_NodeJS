@@ -1,0 +1,33 @@
+{
+  "name": "modulo2-mqtt",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Esto es una plataforma Iot simple - MQTT Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server.js",
+    "start-dev": "DEBUG=modulo2:* nodemon server.js",
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProyectosNode/modulo2.git"
+  },
+  "author": "IsaiRC93",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ProyectosNode/modulo2/issues"
+  },
+  "homepage": "https://github.com/ProyectosNode/modulo2#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "standard": "^13.1.0"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "debug": "^4.1.1",
+    "mosca": "^2.8.3",
+    "modulo2-db": "file:../modulo2-db",
+    "redis": "^2.8.0"
+  }
+}

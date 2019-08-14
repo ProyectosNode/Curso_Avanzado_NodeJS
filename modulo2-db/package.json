@@ -1,0 +1,41 @@
+{
+  "name": "modulo2-db",
+  "version": "1.0.0",
+  "description": "Una simple plataforma de IoT - DB Modulo",
+  "main": "index.js",
+  "scripts": {
+    "test": "DEBUG=modulo2:* nyc --reporter=lcov ava tests/agent-tests.js --verbose",
+    "setup": "DEBUG=modulo2:* node setup.js",
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProyectosNode/modulo2.git"
+  },
+  "author": "IsaiRC93",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ProyectosNode/modulo2/issues"
+  },
+  "homepage": "https://github.com/ProyectosNode/modulo2#readme",
+  "devDependencies": {
+    "ava": "^2.2.0",
+    "longjohn": "^0.2.12",
+    "nyc": "^14.1.1",
+    "proxyquire": "^2.1.1",
+    "sinon": "^7.4.1",
+    "sqlite3": "^4.0.9",
+    "standard": "^13.1.0"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "debug": "^4.1.1",
+    "defaults": "^1.0.3",
+    "inquirer": "^6.5.0",
+    "minimist": "^1.2.0",
+    "pg": "^7.12.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.12.3",
+    "yargs": "^13.3.0"
+  }
+}

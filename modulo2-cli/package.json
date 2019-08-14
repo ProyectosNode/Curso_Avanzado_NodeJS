@@ -1,0 +1,29 @@
+{
+  "name": "modulo2-cli",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Una plataforma simple IoT - CLI",
+  "bin": "modulo2.js",
+  "scripts": {
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProyectosNode/modulo2.git"
+  },
+  "author": "IsaiRC93",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ProyectosNode/modulo2/issues"
+  },
+  "homepage": "https://github.com/ProyectosNode/modulo2#readme",
+  "devDependencies": {
+    "standard": "^13.1.0"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.8.16",
+    "moment": "^2.24.0",
+    "modulo2-agent": "file:../modulo2-agent"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "modulo2-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Una plataforma IoT simple - Agent",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProyectosNode/modulo2.git"
+  },
+  "author": "IsaiRC93",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ProyectosNode/modulo2/issues"
+  },
+  "homepage": "https://github.com/ProyectosNode/modulo2#readme",
+  "devDependencies": {
+    "standard": "^13.1.0"
+  },
+  "dependencies": {
+    "debug": "^4.1.1",
+    "defaults": "^1.0.3",
+    "mqtt": "^3.0.0",
+    "uuid": "^3.3.2"
+  }
+}
